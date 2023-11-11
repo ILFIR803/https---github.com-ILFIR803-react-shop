@@ -41,19 +41,12 @@ nav {
   padding: 1rem;
 }
 
-@media (min-width: 767px) {
-  .cart {
-    top: 65px;
-    bottom: unset;
-  }
-}
-
 .collection {
   position: fixed;
   top: 35%;
   left: 50%;
   transform: translate(-50%);
-  width: 600px;
+  width: 550px;
   z-index: 10;
 }
 .collection-close {
@@ -77,3 +70,16 @@ nav {
 #toast-container {
   top: 60px !important;
 }
+
+@media (min-width: 767px) {
+  .cart {
+    top: 65px;
+    bottom: unset;
+  }
+}
+@media (max-width: 767px) {
+  .collection {
+    width: 85%;
+  }
+}
+
