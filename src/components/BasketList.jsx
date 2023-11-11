@@ -33,7 +33,7 @@ function BasketList(props) {
 
          <li class="collection-item active colletion-buy-wrapper">
             <span>Общая стоимость: {totalPrice} руб.</span>
-            <button className='colletion-buy'>Купить</button>
+            <button className='colletion-buy'>Оформить заказ</button>
             </li>
          <i class="material-icons collection-close"
             onClick={handleBasketShow}>
